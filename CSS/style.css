@@ -16,7 +16,22 @@ body {
 	object-fit: cover;
 	object-position: center;
 	transform: translate(-50%, -50%);
-} /* Center the imag
+	/* center image  */
+}
+
+.mobile-image {
+	position: fixed;
+	/* margin-top: 0px; */
+	display: none;
+}
+
+@media (max-width: 480px) {
+	.mobile-image {
+		/* position: fixed; */
+		margin-top: 490px;
+		display: block;
+	}
+}
 
 /* .content-box {
   height: 500px;

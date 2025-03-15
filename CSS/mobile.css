@@ -1,0 +1,17 @@
+.mobile-image {
+	display: none; /* Hide the image by default */
+}
+
+/* This media query targets mobile devices */
+@media screen and (max-width: 480px) {
+      body {display: flex;
+      flex-direction: column;
+      
+      
+};
+	.mobile-image {
+		display: block; /* Show the image only on mobile */
+		width: 100%; /* Make it responsive, fill the width */
+		height: auto; /* Maintain aspect ratio */
+	}
+}

@@ -1,19 +1,28 @@
-/* .mobile-image {
-	position: fixed;
+.mobile-nav {
 	display: none;
+	background-color: black;
+	margin: 0;
 }
-
-.mobile-text {
+.mobile-image {
+	width: 100%;
+	height: auto;
 	display: none;
-	font-style: arial;
-	font-size: 24px;
-} */
+	margin: 0;
+}
 .mobile-container {
-	display: none; /* Hide by default */
+	display: none;
+	margin: 0;
 }
-
+.mobile-footer {
+	display: none;
+	margin: 0;
+	background-color: black;
+}
 @media (max-width: 480px) {
-	.mobile-container {
+	.mobile-nav,
+	.mobile-image,
+	.mobile-container,
+	.mobile-footer {
 		display: block; /* Show when screen width is 480px or less */
 	}
 }

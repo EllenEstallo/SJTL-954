@@ -1,17 +1,28 @@
-.mobile-image {
-	display: none; /* Hide the image by default */
+/* .mobile-image {
+	position: fixed;
+	display: none;
 }
 
-/* This media query targets mobile devices */
-@media screen and (max-width: 480px) {
-      body {display: flex;
-      flex-direction: column;
-      
-      
-};
-	.mobile-image {
-		display: block; /* Show the image only on mobile */
-		width: 100%; /* Make it responsive, fill the width */
-		height: auto; /* Maintain aspect ratio */
+.mobile-text {
+	display: none;
+	font-style: arial;
+	font-size: 24px;
+} */
+.mobile-container {
+	display: none; /* Hide by default */
+}
+
+@media (max-width: 480px) {
+	.mobile-container {
+		display: block; /* Show when screen width is 480px or less */
 	}
 }
+/* .mobile-image {
+		/* position: fixed; *
+		margin-top: 490px;
+		display: block;
+	} */
+
+/* .mobile-text {
+		display: block;
+	} */

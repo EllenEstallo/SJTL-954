@@ -18,24 +18,3 @@ body {
 	transform: translate(-50%, -50%);
 	/* center image  */
 }
-
-.mobile-image {
-	position: fixed;
-	/* margin-top: 0px; */
-	display: none;
-}
-
-@media (max-width: 480px) {
-	.mobile-image {
-		/* position: fixed; */
-		margin-top: 490px;
-		display: block;
-	}
-}
-
-/* .content-box {
-  height: 500px;
-  width: 100%;
-  background-color: blue;
-  z-index: 1;
-} */

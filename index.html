@@ -1,0 +1,26 @@
+<!-- Mobile Device -->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Holy Week</title>
+		<style>
+			.mobile-image {
+				display: none; /* Hide the image by default */
+			}
+
+			/* This media query targets mobile devices */
+			@media screen and (max-width: 768px) {
+				.mobile-image {
+					display: block; /* Show the image only on mobile */
+					width: 100%; /* Make it responsive, fill the width */
+					height: auto; /* Maintain aspect ratio */
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<img src="holyWeekCross.jpg" alt="Holy Week Cross" class="mobile-image" />
+	</body>
+</html>

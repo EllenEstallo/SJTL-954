@@ -1,27 +1,83 @@
+/* PART TOP */
 .mobile-nav {
 	display: none;
-	background-color: black;
+	background-color: #190e04;
 	margin: 0;
+	padding: 0;
 }
+/* PART MIDa */
 .mobile-image {
 	width: 100%;
 	height: auto;
 	display: none;
 	margin: 0;
+	padding: 0;
 }
-.mobile-container {
+/* PART MIDb -- the invitation*/
+@font-face {
+	font-family: "ViaodaLibre";
+	src: url("/Fonts/ViaodaLibre-Regular.ttf") format("truetype");
+}
+.mobile-container-invitation {
 	display: none;
 	margin: 0;
+	padding: 0;
+	font-family: "ViaodaLibre", sans-serif;
+	font-size: 24px;
+	font-weight: bolder;
+}
+
+.invitation1,
+.invitation2,
+.invitation3,
+.invitation4 {
+	text-align: left;
+	margin-left: 28px;
+}
+.invitation2 {
+	margin-left: 66px;
+}
+.invitation3 {
+	margin-left: 124px;
+}
+.invitation4 {
+	margin-left: 182px;
+}
+/* PART MIDc -- the schedule of services*/
+@font-face {
+	font-family: "Slabo27px";
+	src: url("/Fonts/Slabo27px-Regular.ttf") format("truetype");
+}
+
+.mobile-container-schedule {
+	display: none;
+	margin: 0;
+	padding: 0;
+	font-family: "Slabo27px", sans-serif;
+	font-size: 30px;
+	font-weight: bolder;
+	background-color: #8fa435;
+	color: #eff1f4;
+	line-height: 130%;
+}
+.schedule {
+	text-align: center;
+}
+.schedule-title {
+	text-align: center;
+	color: #fff197;
 }
 .mobile-footer {
 	display: none;
 	margin: 0;
-	background-color: black;
+	background-color: #190e04;
+	padding: 0;
 }
 @media (max-width: 480px) {
 	.mobile-nav,
 	.mobile-image,
-	.mobile-container,
+	.mobile-container-invitation,
+	.mobile-container-schedule,
 	.mobile-footer {
 		display: block; /* Show when screen width is 480px or less */
 	}

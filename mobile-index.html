@@ -11,25 +11,24 @@
 		/>
 		<title>Saint James The Less Roman Catholic Church</title>
 	</head>
-	
+
 	<!-- BODY OF MOBILE -->
 	<body>
-
 		<div class="mobile-nav">
 			<div class="hamburger" onclick="toggleMenu()">&#9776;</div>
 			<div class="mobile-menu" id="mobile-menu">
-			    <a href="#mobile-translate">Translate</a>
+				<a href="mobile-translate.html">Translate</a>
 			</div>
-		  </div>
+		</div>
 
 		<div class="mobile-container-image">
 			<img
-			src="./Assets/Images/holyWeekCross.jpg"
-			alt="Holy Week Cross"
-			class="mobile-container-image"
+				src="./Assets/Images/holyWeekCross.jpg"
+				alt="Holy Week Cross"
+				class="mobile-container-image"
 			/>
 		</div>
-		
+
 		<div class="mobile-container-invitation">
 			<br />
 			<div class="invitation1">We are all invited</div>
@@ -58,21 +57,27 @@
 			<div class="schedule">April 19, 2025 at 8pm</div>
 			<br /><br /><br />
 		</div>
-		<div class="mobile-footer"><h1>lorem</h1></div>
-			
-		</div> 
+		<div class="mobile-footer">
+			<br />
+			<div class="footer-info">St. James The Less Church</div>
+			<div class="footer-info">36 Lincoln Ave., Jamesburg, NJ</div>
+			<div class="footer-info">Telephone: 732-521-0100</div>
+			<br />
+			<div class="copyright">@ 2023 Ellen Estallo. All rights reserved.</div>
+		</div>
 
 		<!-- EXTRAS -->
-		<!-- Z-index 2 Church-Name -->	
-			<div class="mobile-z2-church-name-box">
-				<div class="text-james-less">ST. JAMES THE LESS</div>
+		<!-- Z-index 2 Church-Name -->
+		<div class="mobile-z2-church-name-box">
+			<div class="text-james-less">ST. JAMES THE LESS</div>
 			<div class="text-roman">Roman Catholic Church</div>
-			</div>	 
+		</div>
 	</body>
 	<script>
 		function toggleMenu() {
-		    const mobileMenu = document.getElementById('mobile-menu');
-		    mobileMenu.style.display = (mobileMenu.style.display === 'block') ? 'none' : 'block';
+			const mobileMenu = document.getElementById("mobile-menu");
+			mobileMenu.style.display =
+				mobileMenu.style.display === "block" ? "none" : "block";
 		}
-	  </script>
+	</script>
 </html>

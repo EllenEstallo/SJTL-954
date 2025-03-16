@@ -1,24 +1,22 @@
 /* PART TOP */
 .mobile-nav {
-	display: flex; /* Arranges child elements in a row */
+	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	background-color: white;
+	background-color: #f4efed;
 	height: 60px;
 	padding: 0 20px;
 	border-bottom: 1px solid #ccc;
 	font-family: "Avenir Book", sans-serif;
+	display: none;
 }
 
 .hamburger {
 	font-size: 30px;
-	color: black;
+	color: #170c06;
 	cursor: pointer;
 	width: 70px;
 	height: 50px;
-	/* display: flex;  */
-	/* align-items: center;  */
-	/* justify-content: center; */
 	display: none;
 }
 
@@ -65,6 +63,8 @@
 	font-family: "ViaodaLibre", sans-serif;
 	font-size: 24px;
 	font-weight: bolder;
+	color: #613b16;
+	background-color: #f4efed;
 }
 
 .invitation1,
@@ -97,9 +97,10 @@
 	font-size: 25px;
 	font-weight: bolder;
 	background-color: #8fa435;
+	/* background-color: #c3fcf1; */
 	/* background-color: #190f02; */
 	/* background-color: #42142d; */
-	color: #eff1f4;
+	color: #f4efed;
 	/* color: black; */
 	line-height: 130%;
 }
@@ -108,17 +109,34 @@
 }
 .schedule-main-title {
 	text-align: center;
-	font-size: 35px;
+	font-size: 30px;
 }
 .schedule-title {
 	text-align: center;
 	color: #fff197;
 }
+
 .mobile-footer {
 	display: none;
 	margin: 0;
-	background-color: #190e04;
-	padding: 0;
+	background-color: #1a1003;
+	padding: 30px;
+	display: none;
+	text-align: center;
+	border-top: 25px #f4efed solid;
+}
+.footer-info {
+	color: grey;
+	font-size: 20px;
+	font-family: "Slabo27px", sans-serif;
+	line-height: 150%;
+}
+
+.copyright {
+	color: gray;
+	font-size: 10px;
+	font-family: "Slabo27px", sans-serif;
+	line-height: 150%;
 }
 
 .mobile-z2-church-name-box {
@@ -133,14 +151,14 @@
 .text-james-less {
 	font-family: "Bebas Neue", sans-serif;
 	font-size: 50px;
-	color: white;
+	color: #f4efed;
 	line-height: 100%;
 }
 
 .text-roman {
 	font-family: "Avenir Book", sans-serif;
 	font-size: 24px;
-	color: white;
+	color: #f4efed;
 	line-height: 110%;
 }
 

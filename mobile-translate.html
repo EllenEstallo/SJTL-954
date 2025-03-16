@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./CSS/mobile.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Saint James The Less Roman Catholic Church</title>
+	</head>
+	
+	<!-- BODY OF MOBILE -->
+	<body>
+
+		<div class="mobile-nav">
+			<div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+			<div class="mobile-menu" id="mobile-menu">
+			    <a href="mobile-index.html">Traducir</a>
+
+			</div>
+		  </div>
+
+		<div class="mobile-container-image">
+			<img
+			src="./Assets/Images/holyWeekCross.jpg"
+			alt="Holy Week Cross"
+			class="mobile-container-image"
+			/>
+		</div>
+		
+		<div class="mobile-container-invitation">
+			<br />
+			<div class="invitation1">Todos estamos invitados</div>
+			<div class="invitation2">caminar con Cristo,</div>
+			<div class="invitation3">estar con Cristo, y</div>
+			<div class="invitation4">ser como Cristo.</div>
+			<br />
+		</div>
+
+		<div class="mobile-container-schedule">
+			<br /><br />
+			<div class="schedule-main-title">SERVICIOS DE SEMANA SANTA</div>
+			<br />
+			<div class="schedule-title">DOMINGO DE RAMOS</div>
+			<div class="schedule">13 de Abril de 2025</div>
+			<br /><br />
+			<div class="schedule">Misa de la Cena del Señor</div>
+			<div class="schedule-title">JUEVES SANTO</div>
+			<div class="schedule">17 de abril de 2025 a las 19 h</div>
+			<br /><br />
+			<div class="schedule">La Pasión del Señor</div>
+			<div class="schedule-title">VIERNES SANTO</div>
+			<div class="schedule">18 de Abril de 2025 a las 15 h</div>
+			<br /><br />
+			<div class="schedule-title">VIGILIA PASCUAL</div>
+			<div class="schedule">19 de abril de 2025 a las 20 h</div>
+			<br /><br /><br />
+		</div>
+		<div class="mobile-footer">
+			<br />
+			<div class="footer-info">St. James The Less Church</div>
+			<div class="footer-info">36 Lincoln Ave., Jamesburg, NJ</div>
+			<div class="footer-info">Telephone: 732-521-0100</div>
+			<br />
+			<div class="copyright">@ 2023 Ellen Estallo. All rights reserved.</div>
+		</div>
+			
+		</div> 
+
+		<!-- EXTRAS -->
+		<!-- Z-index 2 Church-Name -->	
+			<div class="mobile-z2-church-name-box">
+				<div class="text-james-less">SANTIAGO EL MENOR</div>
+			<div class="text-roman">Iglesia Católica Romana</div>
+			</div>	 
+	</body>
+	<script>
+		function toggleMenu() {
+		    const mobileMenu = document.getElementById('mobile-menu');
+		    mobileMenu.style.display = (mobileMenu.style.display === 'block') ? 'none' : 'block';
+		}
+	  </script>
+</html>

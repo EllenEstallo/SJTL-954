@@ -81,7 +81,7 @@
 /* for Mobile */
 @media (max-width: 480px) {
 	.navbar {
-		background-color: black;
+		background-color: white;
 		z-index: 2;
 	}
 	.text-logo {

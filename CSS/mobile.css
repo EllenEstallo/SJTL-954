@@ -1,10 +1,12 @@
+body {
+	margin: 0;
+}
 /* PART TOP */
 .mobile-nav {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	background-color: #f4efed;
-	height: 60px;
 	padding: 0 20px;
 	border-bottom: 1px solid #ccc;
 	font-family: "Avenir Book", sans-serif;
